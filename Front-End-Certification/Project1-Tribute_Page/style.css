@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+#main {
+  width: 100%;
+
+}
+
+.title-div {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#img-div {
+  width: 60%;
+  margin: auto;
+}
+
+#image {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+}
+
+#tribute-info {
+
+  margin: auto;
+  width: 60%;
+  text-align: center;
+
+}
