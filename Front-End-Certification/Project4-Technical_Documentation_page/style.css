@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  display: flex;
+}
+
+#navbar {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-doc {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-section .content p {
+  margin-bottom: 10px;
+}
+
+code {
+  background-color :lightgrey;
+}
+
+@media only screen and (max-width: 794px) {
+  body {
+    flex-direction: column;
+  }
+
+
+
+  #navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+  }
+}
